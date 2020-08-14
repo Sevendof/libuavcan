@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>libuavcan_legacy_v0</name>
+  <version>0.1.0</version>
+  <description>Portable reference implementation of the legacy UAVCAN v0 protocol stack</description>
+
+  <maintainer email="asherikov@yandex.com">Alexander Sherikov</maintainer>
+
+  <license>MIT</license>
+
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <exec_depend>catkin</exec_depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>

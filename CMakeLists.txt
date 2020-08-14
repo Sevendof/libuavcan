@@ -105,3 +105,6 @@ endif()
 #
 add_subdirectory(libuavcan)
 # vim: set et ft=cmake fenc=utf-8 ff=unix sts=4 sw=4 ts=4 :
+
+# catkin / ROS
+install(FILES package.xml DESTINATION share/${CMAKE_PROJECT_NAME})
